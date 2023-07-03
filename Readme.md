@@ -12,18 +12,16 @@
 <hr>  
 
 ## Primera Etapa  [**`Data Engineer`** **`MVP`** (_Minimum Viable Product_)]
+### _El que al viento observa, no sembrará; y el que mira a las nubes, no segará._ <sub>Eclestiastés 11:4</sub>
 
- y tener un  para el cierre del proyecto! Tu cabeza va a explotar 🤯, pero al menos sabes cual es, conceptualmente, el camino que debes de seguir :exclamation:. Así que te espantas los miedos y te pones manos a la obra :muscle:
 <p align="center">
-<img src="https://github.com/HX-PRomero/PI_ML_OPS/raw/main/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500>
+<img src="https://github.com/HX-PRomero/PI_ML_OPS/raw/main/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500><br>
+ <fig>Esquema general de los procesos de los proyectos LABS</fig>
 </p>
 
-<sub> Nota que aqui se reflejan procesos no herramientas tecnologicas. Has el ejercicio de entender cual herramienta del stack corresponde a cual parte del proceso<sub/>
+### **`Transformaciones`**:  
 
-## **Propuesta de trabajo (requerimientos de aprobación)**
-
-**`Transformaciones`**:  Para este MVP no necesitas perfección, ¡necesitas rapidez! ⏩ Vas a hacer estas, ***y solo estas***, transformaciones a los datos:
-
+Los requerimientos de Henry de las siguientes transformaciones:
 
 + Algunos campos, como **`belongs_to_collection`**, **`production_companies`** y otros (ver diccionario de datos) están anidados, esto es o bien tienen un diccionario o una lista como valores en cada fila, ¡deberán desanidarlos para poder  y unirlos al dataset de nuevo hacer alguna de las consultas de la API! O bien buscar la manera de acceder a esos datos sin desanidarlos.
 
@@ -39,11 +37,9 @@
 
 <br/>
 
-`Lee de nuevo arriba y asegurate de que viste la parte donde pedimos *solamente* estas transformaciones` :sunglasses:
+### **`Desarrollo API`**:   ***FastAPI*** API Rest con las siguientes consultas:
 
-**`Desarrollo API`**:   Propones disponibilizar los datos de la empresa usando el framework ***FastAPI***. Las consultas que propones son las siguientes:
-
-Deben crear 6 funciones para los endpoints que se consumirán en la API, recuerden que deben tener un decorador por cada una (@app.get(‘/’)).
+Se crean 6 funciones para los endpoints que se consumirán en la API *Nota Importante: decorador (@app.get(‘/’)*
   
 + def **peliculas_idioma( *`Idioma`: str* )**:
     Se ingresa un idioma. Debe devolver la cantidad de películas producidas en ese idioma.
@@ -86,6 +82,19 @@ El MVP _tiene_ que ser una API. Algunas herramientas como por ejemplo, Streamlit
 **`Deployment`**: Conoces sobre [Render](https://render.com/docs/free#free-web-services) y tienes un [tutorial de Render](https://github.com/HX-FNegrete/render-fastapi-tutorial) que te hace la vida mas facil :smile: . Tambien podrias usar [Railway](https://railway.app/), o cualquier otro servicio que permita que la API pueda ser consumida desde la web.
 
 <br/>
+
+Este texto se verá.
+
+<!--
+<style>
+/* Estilo para ocultar el texto dentro de los comentarios */
+comment {
+  display: none;
+}
+</style>
+
+ 
+
 
 **`Análisis exploratorio de los datos`**: _(Exploratory Data Analysis-EDA)_
 
@@ -143,3 +152,4 @@ En este mismo repositorio podras encontrar algunos [links de ayuda](hhttps://git
   
 <br/>
 
+FIN DE OCULTAMIENTO DE TEXTO. -->
