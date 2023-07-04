@@ -83,7 +83,7 @@ El MVP _tiene_ que ser una API. Algunas herramientas como por ejemplo, Streamlit
 
 <br/>
 
-Este texto se verá.
+A continuación hay texto comentado (oculto) para incluírlo después conforme se vaya avanzando en el proyecto.
 
 <!--
 <style>
