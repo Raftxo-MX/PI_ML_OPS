@@ -1,13 +1,7 @@
-<p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
-
-# <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
+# <h1 align=center>🚀🚀🚀 **PROYECTO INDIVIDUAL Nº1** 🚀🚀🚀</h1>
 # <h2 align=center> Alumno: Rafal Janusz Wysocki raftxo.mx@gmail.com </h2>
 
 # <h1 align=center>**`Machine Learning Operations (MLOps)`**</h1>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
-</p>
 
 <hr>  
 
@@ -23,21 +17,21 @@
 
 Los requerimientos de Henry de las siguientes transformaciones:
 
-+ Algunos campos, como **`belongs_to_collection`**, **`production_companies`** y otros (ver diccionario de datos) están anidados, esto es o bien tienen un diccionario o una lista como valores en cada fila, ¡deberán desanidarlos para poder  y unirlos al dataset de nuevo hacer alguna de las consultas de la API! O bien buscar la manera de acceder a esos datos sin desanidarlos.
++ `REVISAR ⚠️` Algunos campos, como **`belongs_to_collection`**, **`production_companies`** y otros (ver diccionario de datos) están anidados, esto es o bien tienen un diccionario o una lista como valores en cada fila, ¡deberán desanidarlos para poder  y unirlos al dataset de nuevo hacer alguna de las consultas de la API! O bien buscar la manera de acceder a esos datos sin desanidarlos.
 
-+ `hecho` Los valores nulos de los campos **`revenue`**, **`budget`** deben ser rellenados por el número **`0`**.
++ `HECHO ✅` Los valores nulos de los campos **`revenue`**, **`budget`** deben ser rellenados por el número **`0`**.
   
-+ `hecho` Los valores nulos del campo **`release date`** deben eliminarse.
++ `REVISAR ⚠️` Los valores nulos del campo **`release date`** deben eliminarse.
 
-+ `hecho` De haber fechas, deberán tener el formato **`AAAA-mm-dd`**, además deberán crear la columna **`release_year`** donde extraerán el año de la fecha de estreno.
++ `REVISAR ⚠️` De haber fechas, deberán tener el formato **`AAAA-mm-dd`**, además deberán crear la columna **`release_year`** donde extraerán el año de la fecha de estreno.
 
-+ `hecho` Crear la columna con el retorno de inversión, llamada **`return`** con los campos **`revenue`** y **`budget`**, dividiendo estas dos últimas **`revenue / budget`**, cuando no hay datos disponibles para calcularlo, deberá tomar el valor **`0`**.
++ `REVISAR ⚠️` Crear la columna con el retorno de inversión, llamada **`return`** con los campos **`revenue`** y **`budget`**, dividiendo estas dos últimas **`revenue / budget`**, cuando no hay datos disponibles para calcularlo, deberá tomar el valor **`0`**.
 
-+ `hecho` Eliminar las columnas que no serán utilizadas, **`video`**,**`imdb_id`**,**`adult`**,**`original_title`**,**`poster_path`** y **`homepage`**.
++ `HECHO ✅` Eliminar las columnas que no serán utilizadas, **`video`**,**`imdb_id`**,**`adult`**,**`original_title`**,**`poster_path`** y **`homepage`**.
 
 <br/>
 
-### **`Desarrollo API`**:   ***FastAPI*** API Rest con las siguientes consultas:
+### ⚠️ **`Desarrollo API`**:   ***FastAPI*** API Rest con las siguientes consultas:
 
 Se crean 6 funciones para los endpoints que se consumirán en la API *Nota Importante: decorador (@app.get(‘/’)*
   
@@ -52,7 +46,7 @@ Se crean 6 funciones para los endpoints que se consumirán en la API *Nota Impor
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo de retorno: *`X` . Duración: `x`. Año: `xx`*
 
-+ def **franquicia( *`Franquicia`: str* )**:
++ ✅ def **franquicia( *`Franquicia`: str* )**:
     Se ingresa la franquicia, retornando la cantidad de peliculas, ganancia total y promedio
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo de retorno: *La franquicia `X` posee `X` peliculas, una ganancia total de `x` y una ganancia promedio de `xx`*
@@ -83,7 +77,7 @@ El MVP _tiene_ que ser una API. Algunas herramientas como por ejemplo, Streamlit
 
 <br/>
 
-Este texto se verá.
+A continuación hay texto comentado (oculto) para incluírlo después conforme se vaya avanzando en el proyecto.
 
 <!--
 <style>
