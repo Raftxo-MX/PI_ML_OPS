@@ -5,8 +5,12 @@
 
 <hr>  
 
-## Primera Etapa  [**`Data Engineer`** **`MVP`** (_Minimum Viable Product_)]
+:::info
 ### _El que al viento observa, no sembrará; y el que mira a las nubes, no segará._ <sub>Eclestiastés 11:4</sub>
+:::
+
+## Primera Etapa  [**`Data Engineer`** **`MVP`** (_Minimum Viable Product_)]
+
 
 <p align="center">
 <img src="https://github.com/HX-PRomero/PI_ML_OPS/raw/main/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500><br>
