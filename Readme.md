@@ -5,9 +5,9 @@
 
 <hr>  
 
-:::info
+
 ### _El que al viento observa, no sembrará; y el que mira a las nubes, no segará._ <sub>Eclestiastés 11:4</sub>
-:::
+
 
 ## Primera Etapa  [**`Data Engineer`** **`MVP`** (_Minimum Viable Product_)]
 
