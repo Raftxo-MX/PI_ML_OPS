@@ -47,7 +47,7 @@ A continuación se proporcionan enlaces de comprobación de la API desplegada.
 
 <br/>  
 
->Enlace al vídeo explicativo del proyecto
+>https://youtu.be/cL7_Awn8JWM - Enlace al vídeo explicativo del proyecto
 
 
 <p align=center style='background-color:#333333;font-size:large;font-style:italic' >
